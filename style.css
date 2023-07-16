@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav */
+.navText {
+    color: orangered;
+    size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Home */
+#Home {
+    height: 90vh;
+    /* background-color: yellow; */
+}
+
+#myDetails {
+    font-size: 20px;
+    
+}
+
+/* About */
+#About {
+    height: 90vh;
+    background-color: black;
+}
+
+/* Projects */
+#Projects {
+    height: 90vh;
+    background-color: yellow;
+}
+
+/* Contact */
+#Contact {
+    height: 90vh;
+    background-color: black;
+}
