@@ -1,24 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     /* font-family: var(--font-base), sans-serif; */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins" , sans-serif !important;
 
-}
-
-.full-height {
-    /* min-height: 100vh;
-    height: 100%; */
-    padding-top: 3rem;
-    display: flex;
-    align-items:center;
-    padding-bottom: 50px;
-    border-bottom: 2px solid rgb(255, 39, 39);
 }
 
 h1,
@@ -35,51 +25,62 @@ h6 {
 a {
     text-decoration: none;
 }
+
 /* Nav */
 .navText:hover {
+    color: orangered !important;
+}
+.nav-item a:hover {
     color: orangered;
 }
-
 .card {
     background-color: #555;
 }
 
-/* Home */
-.Home {
-   
+/* section */
+section {
+    background-color: black;
+    color: white;
 }
 
-.socialMedia span a  {
+/* Home */
+#Home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia span a {
     size: 5rem;
     text-decoration: none;
 }
 
 /* About */
 #About {
-    height: 90vh;
+    /* height: 90vh; */
     background-color: black;
 }
 
 /* Projects */
 #Projects {
-    height: 90vh;
+    /* height: 90vh; */
     background-color: yellow;
 }
 
 /* Contact */
 #Contact {
-    height: 90vh;
+    /* height: 90vh; */
     background-color: black;
 }
 
 /* Media Tab */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .socialMedia {
         display: none;
     }
-    .full-height {
-       
-    }
-    
-    
+
+    .full-height {}
+
+
 }
