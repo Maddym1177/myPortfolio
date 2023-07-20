@@ -30,8 +30,8 @@ a {
 .navText:hover {
     color: orangered !important;
 }
-.nav-item a:hover {
-    color: orangered;
+.nav-item a:active {
+    color: orangered !important;
 }
 .card {
     background-color: #555;
