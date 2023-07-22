@@ -30,9 +30,9 @@ a {
 .navText:hover {
     color: orangered !important;
 }
-.nav-item a:active {
+/* .nav-item a:active {
     color: orangered !important;
-}
+} */
 .card {
     background-color: #555;
 }
@@ -59,19 +59,27 @@ section {
 /* About */
 #About {
     /* height: 90vh; */
-    background-color: black;
+    /* background-color: black; */
 }
 
 /* Projects */
 #Projects {
-    /* height: 90vh; */
-    background-color: yellow;
+    padding-top: 4rem;
+    height: 90vh;
+    /* background-color: yellow; */
+}
+
+.card {
+    background-color: #5555558a !important;
+    width: 30rem !important;
+    margin: 2rem;
+    border-radius: 25px !important;
 }
 
 /* Contact */
 #Contact {
-    /* height: 90vh; */
-    background-color: black;
+    height: 90vh;
+    /* background-color: black; */
 }
 
 /* Media Tab */
