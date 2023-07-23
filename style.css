@@ -65,7 +65,7 @@ section {
 /* Projects */
 #Projects {
     padding-top: 4rem;
-    height: 90vh;
+    /* height: 90vh; */
     /* background-color: yellow; */
 }
 
@@ -78,7 +78,7 @@ section {
 
 /* Contact */
 #Contact {
-    height: 90vh;
+    /* height: 90vh; */
     /* background-color: black; */
 }
 
