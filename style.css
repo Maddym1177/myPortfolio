@@ -6,17 +6,10 @@
 }
 
 body {
-    /* font-family: var(--font-base), sans-serif; */
     font-family: "Poppins", sans-serif !important;
-
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6  {
     font-weight: 700;
     font-size: 40rem;
     color: #e75805;
@@ -28,21 +21,12 @@ a {
 
 /* Nav */
 .navText:hover {
-    color: orangered !important;
+    color: #e75805 !important;
 }
 
-/* .nav-item a:active {
-    color: orangered !important;
-} */
 .card {
-    background-color: #555;
+    background-color: #9696962f;
 }
-
-/* section */
-/* body {
-    background-color: black !important;
-    color: white !important;
-} */
 
 .dark-mode {
     background-color: black;
@@ -52,53 +36,6 @@ a {
     background-color: white;
     color: black;
 }
-
-/*  */
-
-/* Home */
-#Home {
-    padding-top: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.socialMedia span a {
-    size: 5rem;
-    text-decoration: none;
-}
-
-/* About */
-#About {
-    /* height: 90vh; */
-    /* background-color: black; */
-}
-
-/* Projects */
-#Projects {
-    padding-top: 4rem;
-    /* height: 90vh; */
-    /* background-color: yellow; */
-}
-
-.card {
-    background-color: #5555558a !important;
-    width: 30rem !important;
-    margin: 2rem;
-    border-radius: 25px !important;
-}
-
-.cardForm {
-    background-color: #5555558a !important;
-    margin: 2rem;
-    border-radius: 25px !important;
-}
-
-/* Contact */
-#Contact {
-    padding-top: 4rem;
-}
-
 .switch {
     position: relative;
     display: inline-block;
@@ -161,8 +98,56 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-.footer a {
-    color: orangered !important;
+span a {
+    color: #e75805 !important;
+}
+
+/* Home */
+#Home {
+    padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia span a {
+    size: 5rem;
+    text-decoration: none;
+}
+
+/* About */
+#About {
+    /* height: 90vh; */
+    /* background-color: black; */
+}
+
+/* Projects */
+#Projects {
+    padding-top: 4rem;
+    /* height: 90vh; */
+    /* background-color: yellow; */
+}
+
+.card {
+    background-color: #5555558a !important;
+    width: 30rem !important;
+    margin: 2rem;
+    border-radius: 25px !important;
+}
+
+.cardForm {
+    background-color: #5555558a !important;
+    margin: 2rem;
+    border-radius: 25px !important;
+}
+
+/* Contact */
+#Contact {
+    padding-top: 4rem;
+}
+
+.myname {
+    color: #e75805 ;
 }
 
 /* Media Tab */
