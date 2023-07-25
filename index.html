@@ -22,6 +22,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -70,24 +73,24 @@
         <div class="container-fluid">
             <div class="row ">
                 <!-- Profile Image -->
-                <div class="col-md-6  d-flex justify-content-center align-items-center">
+                <div class="col-md-6 mob imgBg d-flex justify-content-center align-items-center" data-aos="flip-left" >
                     <img src="./img/profile.png" alt="Mandar Mane">
                 </div>
 
                 <!-- Content of Home -->
-                <div class="col-md-6 Home d-flex flex-column justify-content-center align-items-center   ">
+                <div class="col-md-6 mt-2 mob Home d-flex flex-column justify-content-center align-items-center   ">
                     <div class="">
                         <div class="name">
-                            <p class="fw-bold  fs-5">Hi, My name</p>
-                            <h1 class="fw-bolder my-4 fs-1"> Mandar Mane </h1>
-                            <h2 class="fw-bold mb-4 -fs-2"> Full Stack Web Developer </h2>
+                            <p class="fw-bold  fs-5" data-aos="fade-down">Hi, My name</p>
+                            <h1 class="fw-bolder my-4 fs-1" data-aos="fade-down"> Mandar Mane </h1>
+                            <h2 class="fw-bold mb-4 -fs-2" data-aos="fade-up"> Full Stack Web Developer </h2>
                         </div>
-                        <p id="myDetails" class="fw-bold m-3 "> A Full-Stack Web Developer focused on building
+                        <p id="myDetails" class="fw-bold m-3 " data-aos="fade-up"> A Full-Stack Web Developer focused on building
                             Websites & Web Applications, With a passion for coding and a love for creating seamless user
                             experiences <br> Let's build something extraordinary.
                         </p>
                     </div>
-                    <div class="socialMedia justify-content-center align-items-center p-5">
+                    <div class="socialMedia justify-content-center align-items-center p-5" data-aos="fade-up">
                         <!-- <span> <a href="https://mail.google.com/mandarm9977@gmail.com" target="_blank"> <i class="m-1 fa-solid fa-xl fa-envelope "></i> </a> </span> -->
                         <span> <a href="https://github.com/Maddym1177/" target="_blank"> <i
                                     class="m-1 fa-brands fa-xl fa-github "> </i> </a> </span>
@@ -112,7 +115,7 @@
     <!-- About Me -->
     <section class=" px-lg-5 py-md-5 " id="About">
         <div class="container-fluid">
-            <div class="row text-light">
+            <div class="row">
                 <div class="d-flex flex-column align-items-center ">
                     <h1 class="text-center ">About</h1>
                     <p class="text-center  w-75 "> Here you will find more information about me, what I do, and
@@ -123,7 +126,7 @@
             <div class="row">
 
                 <!-- Two Secton Start -->
-                <div class="col-md-6 mt-3">
+                <div class="col-md-6 mob mt-3">
                     <h2>Get to know me !</h2>
 
                     <p>I'm a <b>Full-stack Web Developer</b> building the Front-end and Backend
@@ -141,7 +144,7 @@
                                 me</a> </b>.
                     </p>
                 </div>
-                <div class="col-md-6 mt-3">
+                <div class="col-md-6 mob mt-3">
                     <h2>My Skills & Education</h2>
                     <button type="button" class="btn btn-secondary m-1 "> Html </button>
                     <button type="button" class="btn btn-secondary m-1 "> Css </button>
@@ -259,10 +262,10 @@
     <!-- Footer -->
     <section class="footer bg-dark">
         <Footer class=" d-flex align-items-center justify-content-center p-4 ">
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
-                <p class="ts-4 text-light">Designed by <a class="myname" href=""> Mandar Mane</a> </p>
+            <div class="col-md-6 mob d-flex align-items-center justify-content-center">
+                <p class="t">Designed by <a class="myname" href=""> Mandar Mane</a> </p>
             </div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="col-md-6 mob d-flex align-items-center justify-content-center">
                 <div class="SocialsIcon">
                     <!-- <span> <a href="https://mail.google.com/mandarm9977@gmail.com" target="_blank"> <i class="m-1 fa-solid fa-xl fa-envelope "></i> </a> </span> -->
                     <span> <a href="https://github.com/Maddym1177/" target="_blank"> <i
@@ -291,6 +294,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <!-- Aos Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
