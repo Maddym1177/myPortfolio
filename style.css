@@ -28,14 +28,16 @@ a {
     background-color: #9696962f;
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
-}
 .light-mode {
     background-color: white;
     color: black;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+/* Day-Night Button */
 .switch {
     position: relative;
     display: inline-block;
@@ -115,31 +117,22 @@ span a {
 }
 
 .imgBg img {
-    background-color: rgba(128, 128, 128, 0.308);
-    /* box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.308); */
-    /* border : 5px solid rgba(128, 128, 128, 0.308); */
+    background-color: rgba(116, 116, 116, 0.500);
     border-radius: 50%;
     padding: 0rem 2rem;
 }
 
 
 .socialMedia span a {
-    size: 5rem;
     text-decoration: none;
 }
 
 
 /* About */
-#About {
-    /* height: 90vh; */
-    /* background-color: black; */
-}
 
 /* Projects */
 #Projects {
     padding-top: 4rem;
-    /* height: 90vh; */
-    /* background-color: yellow; */
 }
 
 .card {
@@ -190,9 +183,10 @@ span a {
 }
 
 /*  */
-@media (min-width: 1025px) {
-    .pages {
-        min-height: 90vh;
+@media (min-width: 768px) {
+    section {
+        margin-top: 2rem;
+        min-height: 100vh;
     }
     
     #About {
@@ -203,5 +197,10 @@ span a {
     #Contact {
         display: flex;
         align-items: center;
+    }
+
+    .socialMedia span a i {
+        padding: 1rem;
+        font-size-adjust: 50px !important;
     }
  }

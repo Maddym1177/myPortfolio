@@ -30,62 +30,61 @@
 <body>
 
     <!-- navBar -->
-    <section>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mandar Mane</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mandar Mane</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold navText " href="#Home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold navText " href="#About">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold navText " href="#Projects">My Project</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold navText " href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold navText " href="#About">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold navText " href="#Projects">My Project</a>
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold navText" href="#Contact">Contact Me</a>
-                        </li>
-                        <li class="nav-item d-flex align-items-center">
-                            <!-- <button onclick="myFunction()">Dark</button> -->
-                            <label class="switch">
-                                <input type="checkbox" id="myCheck" onclick="myFunction()">
-                                <span class="slider round"></span>
-                            </label>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold navText" href="#Contact">Contact Me</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <!-- <button onclick="myFunction()">Dark</button> -->
+                        <label class="switch">
+                            <input type="checkbox" id="myCheck" onclick="myFunction()">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </section>
+        </div>
+    </nav>
 
     <!-- Home -->
     <section class=" px-lg-5 " id="Home">
         <div class="container-fluid">
             <div class="row ">
                 <!-- Profile Image -->
-                <div class="col-md-6 mob imgBg d-flex justify-content-center align-items-center" data-aos="flip-left" >
+                <div class="col-md-6 mob imgBg d-flex justify-content-center align-items-center" data-aos="flip-left">
                     <img src="./img/profile.png" alt="Mandar Mane">
                 </div>
 
                 <!-- Content of Home -->
-                <div class="col-md-6 mt-2 mob Home d-flex flex-column justify-content-center align-items-center   ">
+                <div class="col-md-6 mob Home d-flex flex-column justify-content-center align-items-center   ">
                     <div class="">
                         <div class="name">
                             <p class="fw-bold  fs-5" data-aos="fade-down">Hi, My name</p>
                             <h1 class="fw-bolder my-4 fs-1" data-aos="fade-down"> Mandar Mane </h1>
                             <h2 class="fw-bold mb-4 -fs-2" data-aos="fade-up"> Full Stack Web Developer </h2>
                         </div>
-                        <p id="myDetails" class="fw-bold m-3 " data-aos="fade-up"> A Full-Stack Web Developer focused on building
+                        <p id="myDetails" class="fw-bold m-3 " data-aos="fade-up"> A Full-Stack Web Developer focused on
+                            building
                             Websites & Web Applications, With a passion for coding and a love for creating seamless user
                             experiences <br> Let's build something extraordinary.
                         </p>
@@ -117,8 +116,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="d-flex flex-column align-items-center ">
-                    <h1 class="text-center ">About</h1>
-                    <p class="text-center  w-75 "> Here you will find more information about me, what I do, and
+                    <h1 class="text-center " data-aos="zoom-in-up">About</h1>
+                    <p class="text-center  w-75 " data-aos="zoom-in-up" data-aos-duration="1500"> Here you will find more information about me, what I do, and
                         Education and my current skills mostly in terms of programming and technology.
                     </p>
                 </div>
@@ -126,7 +125,7 @@
             <div class="row">
 
                 <!-- Two Secton Start -->
-                <div class="col-md-6 mob mt-3">
+                <div class="col-md-6 mob mt-3" data-aos="zoom-out" data-aos-duration="2000">
                     <h2>Get to know me !</h2>
 
                     <p>I'm a <b>Full-stack Web Developer</b> building the Front-end and Backend
@@ -146,18 +145,18 @@
                 </div>
                 <div class="col-md-6 mob mt-3">
                     <h2>My Skills & Education</h2>
-                    <button type="button" class="btn btn-secondary m-1 "> Html </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Css </button>
-                    <button type="button" class="btn btn-secondary m-1 "> JavaScript </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Bootstrap </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Anguler </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Note.js </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Express.js Basic </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Responsive Web Design </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Git </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Github </button>
-                    <button type="button" class="btn btn-secondary m-1 "> Problem Solving and Analytical Skills</button>
-                    <button type="button" class="btn btn-secondary m-1 "> Team Collaboration </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1000"> Html </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1200"> Css </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1400"> JavaScript </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1600"> Bootstrap </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1800"> Anguler </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2000"> Note.js </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2200"> Express.js Basic </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2400"> Responsive Web Design </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2600"> Git </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2800"> Github </button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="3000"> Problem Solving and Analytical Skills</button>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="3000"> Team Collaboration </button>
 
                 </div>
             </div>
@@ -174,7 +173,7 @@
             </div>
             <div class="row d-flex align-items-center justify-content-center">
                 <!-- 1st Project -->
-                <div class="card projectCard">
+                <div class="card projectCard" data-aos="fade-up-right" data-aos-duration="1500">
                     <div class="card-body">
                         <h5 class="card-title">Tasky App</h5>
                         <img src="./img/tasky-appln-Mandar.png" class="card-img-top" alt="...">
@@ -186,7 +185,7 @@
                     </div>
                 </div>
                 <!-- 2nd Project -->
-                <div class="card">
+                <div class="card" data-aos="fade-up-left" data-aos-duration="1500">
                     <div class="card-body">
                         <h5 class="card-title">Zomato landing page Clone</h5>
                         <img src="./img/cloneZom.png" class="card-img-top" alt="...">
@@ -199,7 +198,7 @@
                     </div>
                 </div>
                 <!-- 3rd Project -->
-                <div class="card">
+                <div class="card" data-aos="fade-up-right" data-aos-duration="1500">
                     <div class="card-body">
                         <h5 class="card-title">Dream Mart (Flipkart Clone)</h5>
                         <img src="./img/tasky-appln-Mandar.png" class="card-img-top" alt="...">
@@ -212,7 +211,7 @@
                     </div>
                 </div>
                 <!-- 4th Project -->
-                <!-- <div class="card">
+                <!-- <div class="card" data-aos="fade-up-left" data-aos-duration="1500">
                     <div class="card-body">
                         <h5 class="card-title">Tasky App</h5>
                         <img src="./img/tasky-appln-Mandar.png" class="card-img-top" alt="...">
@@ -235,7 +234,7 @@
                 <div class="col-md-8">
                     <h1 class="text-center ">Contact Me</h1>
 
-                    <div class="cardForm p-5">
+                    <div class="cardForm p-5" data-aos="fade-up" data-aos-duration="3000">
                         <form>
                             <div class="mb-3 con1 d-flex justify-content-around">
                                 <input type="email" class="form-control mr-4" placeholder="Enter Your Name">
@@ -260,27 +259,25 @@
     </section>
 
     <!-- Footer -->
-    <section class="footer bg-dark">
-        <Footer class=" d-flex align-items-center justify-content-center p-4 ">
-            <div class="col-md-6 mob d-flex align-items-center justify-content-center">
-                <p class="t">Designed by <a class="myname" href=""> Mandar Mane</a> </p>
+    <Footer class=" d-flex align-items-center justify-content-center p-4 bg-dark ">
+        <div class="col-md-6 mob d-flex align-items-center justify-content-center">
+            <p class="t">Designed by <a class="myname" href=""> Mandar Mane</a> </p>
+        </div>
+        <div class="col-md-6 mob d-flex align-items-center justify-content-center">
+            <div class="SocialsIcon">
+                <!-- <span> <a href="https://mail.google.com/mandarm9977@gmail.com" target="_blank"> <i class="m-1 fa-solid fa-xl fa-envelope "></i> </a> </span> -->
+                <span> <a href="https://github.com/Maddym1177/" target="_blank"> <i
+                            class="m-1 fa-brands fa-xl fa-github "> </i> </a> </span>
+                <span> <a href="https://www.linkedin.com/in/mandar-mane-bba99b244/" target="_blank"> <i
+                            class="m-1 fa-brands fa-xl fa-linkedin"> </i> </a> </span>
+                <!-- <span> <a href="https://www.whatsapp.com/9075791177" target="_blank"> <i class="m-1 fa-brands fa-xl fa-whatsapp"> </i> </a> </span> -->
+                <span> <a href="https://www.instagram.com/mandar.mane.9696" target="_blank"> <i
+                            class="m-1 fa-brands fa-xl fa-instagram"> </i> </a> </span>
+                <span> <a href="https://www.facebook.com/people/mandar.mane.9696/" target="_blank"> <i
+                            class="m-1 fa-brands fa-xl fa-facebook"> </i> </a> </span>
             </div>
-            <div class="col-md-6 mob d-flex align-items-center justify-content-center">
-                <div class="SocialsIcon">
-                    <!-- <span> <a href="https://mail.google.com/mandarm9977@gmail.com" target="_blank"> <i class="m-1 fa-solid fa-xl fa-envelope "></i> </a> </span> -->
-                    <span> <a href="https://github.com/Maddym1177/" target="_blank"> <i
-                                class="m-1 fa-brands fa-xl fa-github "> </i> </a> </span>
-                    <span> <a href="https://www.linkedin.com/in/mandar-mane-bba99b244/" target="_blank"> <i
-                                class="m-1 fa-brands fa-xl fa-linkedin"> </i> </a> </span>
-                    <!-- <span> <a href="https://www.whatsapp.com/9075791177" target="_blank"> <i class="m-1 fa-brands fa-xl fa-whatsapp"> </i> </a> </span> -->
-                    <span> <a href="https://www.instagram.com/mandar.mane.9696" target="_blank"> <i
-                                class="m-1 fa-brands fa-xl fa-instagram"> </i> </a> </span>
-                    <span> <a href="https://www.facebook.com/people/mandar.mane.9696/" target="_blank"> <i
-                                class="m-1 fa-brands fa-xl fa-facebook"> </i> </a> </span>
-                </div>
-            </div>
-        </Footer>
-    </section>
+        </div>
+    </Footer>
 
     <!-- script -->
     <script src="./app.js"></script>
@@ -299,7 +296,7 @@
 
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>
