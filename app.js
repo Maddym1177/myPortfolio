@@ -7,9 +7,9 @@ function myFunction() {
     var element = document.body;
 
     if (checkBox.checked == true) {
-        element.classList.toggle("light-mode");
+        element.classList.toggle("dark-mode");
     }
     else if (checkBox.checked == false) {
-        element.classList.toggle("dark-mode");
+        element.classList.toggle("light-mode");
     }
 }
