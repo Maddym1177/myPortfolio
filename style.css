@@ -7,11 +7,12 @@
 
 body {
     font-family: "Poppins", sans-serif !important;
+    margin: 0;
+    padding: 0;
+
 }
 
 h1, h2, h3, h4, h5, h6  {
-    font-weight: 700;
-    font-size: 40rem;
     color: #e75805;
 }
 
@@ -38,7 +39,7 @@ a {
     color: white;
 }
 /* Day-Night Button */
-.switch {
+/* .switch {
     position: relative;
     display: inline-block;
     width: 50px;
@@ -91,14 +92,14 @@ input:checked+.slider:before {
 
 }
 
-/* Rounded sliders */
+Rounded sliders
 .slider.round {
     border-radius: 34px;
 }
 
 .slider.round:before {
     border-radius: 50%;
-}
+} */
 
 span a {
     color: #e75805 !important;
