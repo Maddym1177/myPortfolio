@@ -25,6 +25,11 @@ a {
     color: #e75805 !important;
 }
 
+.nav-btn:active {
+    color: #e75805 !important;
+}
+
+
 .card {
     background-color: #9696962f;
 }
@@ -113,12 +118,8 @@ span a {
     justify-content: center;
 }
 
-.imgBg {
-    
-}
-
 .imgBg img {
-    background-color: rgba(116, 116, 116, 0.500);
+    background-color: rgb(184, 184, 184);
     border-radius: 50%;
     padding: 0rem 2rem;
 }
@@ -205,3 +206,26 @@ span a {
         font-size-adjust: 50px !important;
     }
  }
+
+ /* .imgBox {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .imgBox::before {
+    content: " ";
+    width: 50%;
+    height: 50%;
+    background-color: #2196F3;
+    position: absolute;
+ }
+ .imgBox::after {
+    content: " ";
+    width: 50%;
+    height: 50%;
+    background-color: #2196F3;
+    position: absolute;
+ } */ 
