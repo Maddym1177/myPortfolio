@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
     <!-- AOS Animation -->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -70,27 +70,27 @@
         <div class="container-fluid">
             <div class="row ">
                 <!-- Profile Image -->
-                <div class="col-md-6 mob imgBg d-flex justify-content-center align-items-center" data-aos="flip-left">
-                    <div class="imgBox">
+                <div class="col-md-6 mob imgBg d-flex justify-content-center align-items-center">
+                    <div class="imgBox" data-aos="fade-down">
                         <img class="" src="./img/profile.png" alt="Mandar Mane">
                     </div>
                 </div>
 
                 <!-- Content of Home -->
                 <div class="col-md-6 mob Home d-flex flex-column justify-content-center align-items-center   ">
-                    <div class="">
-                        <div class="name" id="Name">
-                            <p class="fw-bold  fs-5" data-aos="fade-down">Hi, My name</p>
-                            <h1 class="fw-bolder my-4 fs-1" data-aos="fade-down"> Mandar Mane </h1>
-                            <h2 class="fw-bold mb-4 -fs-2" data-aos="fade-up"> Full Stack Web Developer </h2>
-                        </div>
-                        <p id="myDetails" class="fw-bold m-3 " data-aos="fade-up"> A Full-Stack Web Developer focused on
-                            building
-                            Websites & Web Applications, With a passion for coding and a love for creating seamless user
-                            experiences <br> Let's build something extraordinary.
-                        </p>
+                    <div class="name" id="Name">
+                        <p class="fw-bold  fs-5" data-aos="fade-down" data-aos-duration="2000">Hi, My name</p>
+                        <h1 class="fw-bolder my-4 fs-1" data-aos="fade-down" data-aos-duration="1500">Mandar Mane</h1>
+                        <h2 class="fw-bold mb-4 -fs-2" data-aos="fade-up" data-aos-duration="1000"> Full Stack Web
+                            Developer </h2>
                     </div>
-                    <div class="socialMedia justify-content-center align-items-center p-5" data-aos="fade-up">
+                    <p id="myDetails" class="fw-bold m-3 " data-aos="fade-up" data-aos-duration="2000">
+                        A Full-Stack Web Developer focused on building
+                        Websites & Web Applications, With a passion for coding and a love for creating seamless user
+                        experiences <br> Let's build something extraordinary.
+                    </p>
+                    <div class="socialMedia justify-content-center align-items-center p-5" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <!-- <span> <a href="https://mail.google.com/mandarm9977@gmail.com" target="_blank"> <i class="m-1 fa-solid fa-xl fa-envelope "></i> </a> </span> -->
                         <span> <a href="https://github.com/Maddym1177/" target="_blank"> <i
                                     class="m-1 fa-brands fa-xl fa-github "> </i> </a> </span>
@@ -113,12 +113,13 @@
     </section>
 
     <!-- About Me -->
-    <section class=" px-lg-5 py-md-5 " id="About">
+    <section class=" px-lg-5 py-5 " id="About">
         <div class="container-fluid">
             <div class="row">
-                <div class="d-flex flex-column align-items-center ">
-                    <h1 class="text-center " data-aos="zoom-in-up">About</h1>
-                    <p class="text-center  w-75 " data-aos="zoom-in-up" data-aos-duration="1500"> Here you will find
+                <div class="d-flex flex-column align-items-center " data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="400">
+                    <h1 class="text-center ">About</h1>
+                    <p class="text-center  w-75 "> Here you will find
                         more information about me, what I do, and
                         Education and my current skills mostly in terms of programming and technology.
                     </p>
@@ -127,49 +128,51 @@
             <div class="row">
 
                 <!-- Two Secton Start -->
-                <div class="col-md-6 mob mt-3" data-aos="zoom-out" data-aos-duration="2000">
-                    <h2>Get to know me !</h2>
-
-                    <p>I'm a <b>Full-stack Web Developer</b> building the Front-end and Backend
-                        of Website abd Web Applicatios that leads ti the success of the overall product. Check
-                        out some of my work in <b> <a href="#Projects">Projects</a> </b> section.
-                    </p>
-                    <p>
-                        Feel free to Connect or Follow me on my <b> Linkedin </b> where I post
-                        useful content related to Web Development and Programming
-                    </p>
-                    <p>
-                        I'm open to Job opportunities where I can contribute, learn and grow. If you have a good
-                        opportunity
-                        that matches my skills and experience then don't hesitate to <b> <a href="#Contact">contact
-                                me</a> </b>.
-                    </p>
+                <div class="col-md-6 mob mt-3">
+                    <h2 data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                        Get to know me !
+                    </h2>
+                    <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
+                        <p>I'm a <b>Full-stack Web Developer</b> building the Front-end and Backend
+                            of Website abd Web Applicatios that leads ti the success of the overall product. Check
+                            out some of my work in <b> <a href="#Projects">Projects</a> </b> section.
+                        </p>
+                        <p>
+                            Feel free to Connect or Follow me on my <b> Linkedin </b> where I post
+                            useful content related to Web Development and Programming
+                        </p>
+                        <p>
+                            I'm open to Job opportunities where I can contribute, learn and grow. If you have a good
+                            opportunity that matches my skills and experience then don't hesitate to <b>
+                                <a href="#Contact">contact me</a> </b>.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-6 mob mt-3">
-                    <h2>My Skills & Education</h2>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1000">
+                    <h2 data-aos="fade-down" data-aos-duration="1000">My Skills & Education</h2>
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="1500">
                         Html </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1200">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="1500">
                         Css </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1400">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="1500">
                         JavaScript </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1600">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="1500">
                         Bootstrap </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="1800">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="2400">
                         Anguler </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2000">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="2400">
                         Note.js </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2200">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="2400">
                         Express.js Basic </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2400">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="2400">
                         Responsive Web Design </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2600">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="3000">
                         Git </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="2800">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="3000">
                         Github </button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="3000">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="3000">
                         Problem Solving and Analytical Skills</button>
-                    <button type="button" class="btn btn-secondary m-1 " data-aos="zoom-in" data-aos-duration="3000">
+                    <button type="button" class="btn btn-secondary m-1 " data-aos="fade-up" data-aos-duration="3000">
                         Team Collaboration </button>
 
                 </div>
@@ -180,14 +183,15 @@
     <!-- Projects -->
     <section class=" px-lg-5 " id="Projects">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" data-aos="fade-zoom-out" data-aos-easing="ease-in-back" data-aos-delay="400"
+                data-aos-offset="400">
                 <h1 class="text-center ">My Projects</h1>
                 <p class="text-center px-5 py-1">Here you will find some of the persoal projects that I created with
                     technology and Discrition.</p>
             </div>
             <div class="row d-flex align-items-center justify-content-center">
                 <!-- 1st Project -->
-                <div class="card projectCard" data-aos="fade-up-right" data-aos-duration="1500">
+                <div class="card projectCard" data-aos="fade-up">
                     <div class="card-body">
                         <h5 class="card-title">Tasky App</h5>
                         <img src="./img/tasky-appln-Mandar.png" class="card-img-top" alt="...">
@@ -199,7 +203,7 @@
                     </div>
                 </div>
                 <!-- 2nd Project -->
-                <div class="card" data-aos="fade-up-left" data-aos-duration="1500">
+                <div class="card" data-aos="fade-up">
                     <div class="card-body">
                         <h5 class="card-title">Zomato landing page Clone</h5>
                         <img src="./img/cloneZom.png" class="card-img-top" alt="...">
@@ -212,7 +216,7 @@
                     </div>
                 </div>
                 <!-- 3rd Project -->
-                <div class="card" data-aos="fade-up-right" data-aos-duration="1500">
+                <div class="card" data-aos="fade-up">
                     <div class="card-body">
                         <h5 class="card-title">Dream Mart (Flipkart Clone)</h5>
                         <img src="./img/tasky-appln-Mandar.png" class="card-img-top" alt="...">
@@ -225,7 +229,7 @@
                     </div>
                 </div>
                 <!-- 4th Project -->
-                <!-- <div class="card" data-aos="fade-up-left" data-aos-duration="1500">
+                <!-- <div class="card" data-aos="fade-up">
                     <div class="card-body">
                         <h5 class="card-title">Tasky App</h5>
                         <img src="./img/tasky-appln-Mandar.png" class="card-img-top" alt="...">
@@ -246,7 +250,7 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <h1 class="text-center ">Contact Me</h1>
+                    <h1 class="text-center " data-aos="fade-down" data-aos-duration="1000">Contact Me</h1>
 
                     <div class="cardForm p-5" data-aos="fade-up" data-aos-duration="3000">
                         <form>

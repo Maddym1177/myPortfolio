@@ -7,9 +7,7 @@
 
 body {
     font-family: "Poppins", sans-serif !important;
-    margin: 0;
-    padding: 0;
-
+    border: 1px solid black ;
 }
 
 h1, h2, h3, h4, h5, h6  {
@@ -207,25 +205,3 @@ span a {
     }
  }
 
- /* .imgBox {
-    padding: 5px;
-    border-radius: 50%;
-    background-color: #2196F3;
-    position: relative;
-    overflow: hidden;
- }
-
- .imgBox::before {
-    content: " ";
-    width: 50%;
-    height: 50%;
-    background-color: #2196F3;
-    position: absolute;
- }
- .imgBox::after {
-    content: " ";
-    width: 50%;
-    height: 50%;
-    background-color: #2196F3;
-    position: absolute;
- } */ 
